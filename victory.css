@@ -1,0 +1,25 @@
+body
+{
+    background: linear-gradient(to right,black,white,black);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contenedor
+{
+    background: linear-gradient(140deg,rgb(8, 117, 206),rgb(14, 213, 153),rgb(8, 117, 206));
+    width: 900px;
+    height: 600px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 5px 45px rgb(1, 116, 248);
+}
+.principal
+{
+    width: 700px;
+}
+.regresar
+{
+    width: 60px;
+    opacity: 0.8;
+}

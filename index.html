@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video y menú</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="div_video">
+            <video src="imagenes/dance.mp4" autoplay loop muted></video>
+        </div>
+        <div class="div_menu">
+            <div><a href="1.html"><h2>Comenzar</h2></a></div>
+            <div><h2 id="infoBtn">Información</h2></div>
+            <p id="mensaje" style="display:none;">
+                Este juego trata de adivinar cual es el logo correcto o original, una vez acertado todos se ganara el juego, tambien si se equivoca en uno se puede volver a comenzar.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const botonInfo = document.getElementById("infoBtn");
+        const mensaje = document.getElementById("mensaje");
+
+        botonInfo.addEventListener("click", () => {
+            // alternar mostrar/ocultar texto
+            if (mensaje.style.display === "none") {
+                mensaje.style.display = "block";
+            } else {
+                mensaje.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

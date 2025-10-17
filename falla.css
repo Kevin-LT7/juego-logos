@@ -1,0 +1,41 @@
+body
+{
+    background: linear-gradient(to right,black,white,black);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.contenedor
+{
+    background: linear-gradient(140deg,rgb(221, 29, 106),rgb(176, 10, 65),rgb(221, 29, 106));
+    width: 700px;
+    height: 650px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0 50px 0 rgba(255, 0, 0, 0.8);
+}
+img
+{
+    width: 600px;
+}
+h2
+{
+    font-size: 35px;
+    background: linear-gradient(125deg,rgb(231, 164, 6),rgb(221, 118, 8),rgb(231, 164, 6));
+    padding: 5px;
+    border-radius: 15px;
+    display: inline-block;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(223, 220, 9);
+}
+h2:hover
+{
+    background: linear-gradient(120deg,rgb(233, 218, 9),rgb(235, 43, 4),rgb(233, 218, 9));
+    color: rgb(255, 255, 255);
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
